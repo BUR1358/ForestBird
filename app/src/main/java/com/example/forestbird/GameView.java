@@ -74,7 +74,7 @@ public class GameView extends View {
 
     private void initPipe() {
         sumpipe = 6; // частота труб
-        distance = 300 * Constants.SCREEN_HIGHT / 2220; //расстояние между верхней и нежней трубой
+        distance = 350 * Constants.SCREEN_HIGHT / 2220; //расстояние между верхней и нежней трубой
         arrPipes = new ArrayList<>();
         for (int i = 0; i < sumpipe; i++) {
             if (i < sumpipe / 2) {
@@ -152,7 +152,7 @@ public class GameView extends View {
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_DOWN) {
-            bird.setDrop(-15);
+            bird.setDrop(-14); //высота прыжка
             if (loadedsound) {
                 int strea, ID = this.soundPool.play(this.soundJump, (float) 0.5, (float) 0.5, 1, 0, 1f);
             }
