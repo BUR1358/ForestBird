@@ -1,7 +1,8 @@
 # ForestBird
 ForestBird
 
-![ezgif-2-0602264a4f](https://user-images.githubusercontent.com/77270310/171036708-34ac4b7d-cb2b-4f1a-a8c9-ed421be6b0ae.gif)
+![ezgif-2-599f373a40](https://user-images.githubusercontent.com/77270310/171347939-bef82b10-4384-4954-8179-6b4b2b615f0b.gif)
+
 
 
 
